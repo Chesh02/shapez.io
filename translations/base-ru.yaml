@@ -68,39 +68,39 @@ steamPage:
         Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
 
 global:
-    loading: Loading
-    error: Error
+    loading: Загрузка
+    error: Ошибка
 
     # How big numbers are rendered, e.g. "10,000"
     thousandsDivider: ","
 
     # The suffix for large numbers, e.g. 1.3k, 400.2M, etc.
     suffix:
-        thousands: k
-        millions: M
-        billions: B
-        trillions: T
+        thousands: тыс
+        millions: млн
+        billions: млрд
+        trillions: трлн
 
     # Shown for infinitely big numbers
-    infinite: inf
+    infinite: бесконечно
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: одну секунду назад
+        xSecondsAgo: <x> секунд назад
+        oneMinuteAgo: одну минуту назад
+        xMinutesAgo: <x> минут назад
+        oneHourAgo: один час назад
+        xHoursAgo: <x> часов назад
+        oneDayAgo: один день назад
+        xDaysAgo: <x> дней назад
 
         # Short formats for times, e.g. '5h 23m'
-        secondsShort: <seconds>s
-        minutesAndSecondsShort: <minutes>m <seconds>s
-        hoursAndMinutesShort: <hours>h <minutes>s
+        secondsShort: <seconds>сек
+        minutesAndSecondsShort: <minutes>мин <seconds>сек
+        hoursAndMinutesShort: <hours>ч <minutes>мин
 
-        xMinutes: <x> minutes
+        xMinutes: <x> минут
 
     keys:
         tab: TAB
@@ -112,24 +112,24 @@ global:
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
-    title: Demo Version
+    title: Демо Версия
     intro: >-
-        Get the standalone to unlock all features!
+        Купите полную версию чтобы получить все Функции!
 
 mainMenu:
-    play: Play
-    changelog: Changelog
-    importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
+    play: Играть
+    changelog: Список изменений
+    importSavegame: Импорт
+    openSourceHint: Эта игра с открытым исходным кодом!
+    discordLink: Официальный Discord Сервер
+    helpTranslate: Помогите перевеcти!
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+        Извините, но игра может работать медленно на вашем браузере! Приобретите полную версию, либо скачайте Chrome для полноценной игры.
 
-    savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevel: Уровент <x>
+    savegameLevelUnknown: Неизвестный Уровень
 
     contests:
         contest_01_03062020:
@@ -157,54 +157,54 @@ mainMenu:
 dialogs:
     buttons:
         ok: OK
-        delete: Delete
-        cancel: Cancel
-        later: Later
-        restart: Restart
-        reset: Reset
-        getStandalone: Get Standalone
-        deleteGame: I know what I do
-        viewUpdate: View Update
-        showUpgrades: Show Upgrades
-        showKeybindings: Show Keybindings
+        delete: Удалить
+        cancel: Отмена
+        later: Позже
+        restart: Рестарт
+        reset: Сброс
+        getStandalone: Купить Полную версию
+        deleteGame: Я знаю что я делаю
+        viewUpdate: Посмотреть обновления
+        showUpgrades: Показать обновления
+        showKeybindings: Показать горячие клавиши
 
     importSavegameError:
-        title: Import Error
+        title: Ошибка Импорта
         text: >-
-            Failed to import your savegame:
+            Не удалось импортировать ваше сохранение:
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: Сохранение Импортированно
         text: >-
-            Your savegame has been successfully imported.
+            Ваше сохранение было успешно импортированно.
 
     gameLoadFailure:
-        title: Game is broken
+        title: Игра сломалась
         text: >-
-            Failed to load your savegame:
+            Не удалось загрузить ваше сохранение:
 
     confirmSavegameDelete:
-        title: Confirm deletion
+        title: Подтверждение удаления
         text: >-
-            Are you sure you want to delete the game?
+            Вы уверены что хотите удалить сохранение?
 
     savegameDeletionError:
-        title: Failed to delete
+        title: Не удалось удалить
         text: >-
-            Failed to delete the savegame:
+            Не удалось удалить сохранение:
 
     restartRequired:
-        title: Restart required
+        title: Нужен перезапуск
         text: >-
-            You need to restart the game to apply the settings.
+            Вам нужно перезапуск игру для применения настроек.
 
     editKeybinding:
-        title: Change Keybinding
-        desc: Press the key or mouse button you want to assign, or escape to cancel.
+        title: Смена горячих клавиш
+        desc: Нажмите клавишу на которую вы хотите заменить или Esc для отмены.
 
     resetKeybindingsConfirmation:
-        title: Reset keybindings
-        desc: This will reset all keybindings to their default values. Please confirm.
+        title: Сброс горячих клавиш
+        desc: Это действие сбросит все настройки горячих клавиш на стандартные. Пожалуйста подтвердите.
 
     keybindingsResetOk:
         title: Keybindings reset
