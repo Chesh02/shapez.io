@@ -203,199 +203,199 @@ dialogs:
         desc: Нажмите клавишу на которую вы хотите заменить или Esc для отмены.
 
     resetKeybindingsConfirmation:
-        title: Сброс горячих клавиш
+        title: Подтверждение сброса горячих клавиш
         desc: Это действие сбросит все настройки горячих клавиш на стандартные. Пожалуйста подтвердите.
 
     keybindingsResetOk:
-        title: Keybindings reset
-        desc: The keybindings have been reset to their respective defaults!
+        title: Сброс горячих клавиш
+        desc: Горячие клавиши были сброшены до стандартных настроек!
 
     featureRestriction:
-        title: Demo Version
-        desc: You tried to access a feature (<feature>) which is not available in the demo. Consider to get the standalone for the full experience!
+        title: Демо версия
+        desc: Вы попробовали функцию которая не доступна в демо версии. Подумайте о покупке полной версии игры!
 
     saveNotPossibleInDemo:
-        desc: Your game has been saved, but restoring it is only possible in the standalone version. Consider to get the standalone for the full experience!
+        desc: Ваша игра была сохранена, но вы можете восстановить ее только в полной версии. Подумайте о покупке полной версии игры!
 
     leaveNotPossibleInDemo:
-        title: Demo version
-        desc: Your game has been saved, but you will not be able to restore it in the demo. Restoring your savegames is only possible in the full version. Are you sure?
+        title: Демо версия
+        desc: Ваша игра была сохранена, но вы можете восстановить ее только в полной версии. Вы уверены?
 
     newUpdate:
-        title: Update available
-        desc: There is an update for this game available, be sure to download it!
+        title: Доступно обновление
+        desc: В игре доступно новое обновление, не забудьте обновиться!
 
     oneSavegameLimit:
-        title: Limited savegames
-        desc: You can only have one savegame at a time in the demo version. Please remove the existing one or get the standalone!
+        title: Ограниченные сохранения
+        desc: Вы можете иметь только одно сохранение в демо версии. Пожалуйста удалите текущее сохранение, либо приобретите полную версию игры!
 
     updateSummary:
-        title: New update!
+        title: Новое обновление!
         desc: >-
-            Here are the changes since you last played:
+            Изменения, которые были добавлены с момента вашей последней игры:
 
     hintDescription:
-        title: Tutorial
+        title: Обучение
         desc: >-
-            Whenever you need help or are stuck, check out the 'Show hint' button in the lower left and I'll give my best to help you!
+            Когда вам понадобится помощь, нажмите кнопку "Показать подсказку" в левом нижнем углу и я постараюсь вам помочь!
 
     upgradesIntroduction:
-        title: Unlock Upgrades
+        title: Получить улучшения
         desc: >-
-            All shapes you produce can be used to unlock upgrades - <strong>Don't destroy your old factories!</strong>
-            The upgrades tab can be found on the top right corner of the screen.
+            Все фигуры, которые вы производите могут быть использованными для получения улучшения - <strong>Не разрушайте ваши старые заводы!</strong>
+            Вкладка улучшений находится в правом верхнем углу экрана.
 
     massDeleteConfirm:
-        title: Confirm delete
+        title: Подтверждение удаления
         desc: >-
-            You are deleting a lot of buildings (<count> to be exact)! Are you sure you want to do this?
+            Вы удаляете большое количество зданий (<count> если быть точным)! Вы уверены что хотите этого?
 
     blueprintsNotUnlocked:
-        title: Not unlocked yet
+        title: Еще не открыто
         desc: >-
-            Blueprints have not been unlocked yet! Complete more levels to unlock them.
+            Чертежы еще не были открыты! Получите больше уровней, чтобы получить их.
 
     keybindingsIntroduction:
-        title: Useful keybindings
+        title: Полезные горячие клавиши
         desc: >-
-            This game has a lot of keybindings which make it easier to build big factories.
-            Here are a few, but be sure to <strong>check out the keybindings</strong>!<br><br>
-            <code class='keybinding'>CTRL</code> + Drag: Select area to copy / delete.<br>
-            <code class='keybinding'>SHIFT</code>: Hold to place multiple of one building.<br>
-            <code class='keybinding'>ALT</code>: Invert orientation of placed belts.<br>
+            Эта игра имеет большое количество горячих клавиш, которые помогут вам быстрее строить большие заводы.
+            Вот некоторые, но <strong>проверьте остальные</strong>!<br><br>
+            <code class='keybinding'>CTRL</code> + Перетащить: Выделить область для копирования / удаления.<br>
+            <code class='keybinding'>SHIFT</code>: Удерживайте для расположения множества одного здания.<br>
+            <code class='keybinding'>ALT</code>: Инвертировать направление установленных конвеерных лент.<br>
 
     createMarker:
-        title: New Marker
-        desc: Give it a meaningful name
+        title: Новый Маркер
+        desc: Дайте название
 
     markerDemoLimit:
-        desc: You can only create two custom markers in the demo. Get the standalone for unlimited markers!
+        desc: Вы можете сделать только два маркера в демо версии. Получите полную версию для неограниченных маркеров!
 
 ingame:
     # This is shown in the top left corner and displays useful keybindings in
     # every situation
     keybindingsOverlay:
-        moveMap: Move
-        selectBuildings: Select area
-        stopPlacement: Stop placement
-        rotateBuilding: Rotate building
-        placeMultiple: Place multiple
-        reverseOrientation: Reverse orientation
-        disableAutoOrientation: Disable auto orientation
-        toggleHud: Toggle HUD
-        placeBuilding: Place building
-        createMarker: Create Marker
-        delete: Destroy
+        moveMap: Двигать
+        selectBuildings: Выделить область
+        stopPlacement: Прекратить установку
+        rotateBuilding: Повернуть здание
+        placeMultiple: Установить несколько
+        reverseOrientation: Перевернуть направление
+        disableAutoOrientation: Отключить авто направление
+        toggleHud: Включить/Выключить интерфейс
+        placeBuilding: Установить здание
+        createMarker: Поставить Маркер
+        delete: Удалить
 
     # Everything related to placing buildings (I.e. as soon as you selected a building
     # from the toolbar)
     buildingPlacement:
         # Buildings can have different variants which are unlocked at later levels,
         # and this is the hint shown when there are multiple variants available.
-        cycleBuildingVariants: Press <key> to cycle variants.
+        cycleBuildingVariants: Нажмите <key> для смены вариантов.
 
         # Shows the hotkey in the ui, e.g. "Hotkey: Q"
         hotkeyLabel: >-
             Hotkey: <key>
 
         infoTexts:
-            speed: Speed
-            range: Range
-            storage: Storage
-            oneItemPerSecond: 1 item / second
-            itemsPerSecond: <x> items / s
+            speed: Скорость
+            range: Дальность
+            storage: Вместительность
+            oneItemPerSecond: 1 предмет / секунду
+            itemsPerSecond: <x> предметов / сек
             itemsPerSecondDouble: (x2)
 
-            tiles: <x> tiles
+            tiles: <x> плиток
 
     # The notification when completing a level
     levelCompleteNotification:
         # <level> is replaced by the actual level, so this gets 'Level 03' for example.
-        levelTitle: Level <level>
-        completed: Completed
-        unlockText: Unlocked <reward>!
-        buttonNextLevel: Next Level
+        levelTitle: Уровень <level>
+        completed: Завершен
+        unlockText: Получен <reward>!
+        buttonNextLevel: Следующий уровень
 
     # Notifications on the lower right
     notifications:
-        newUpgrade: A new upgrade is available!
-        gameSaved: Your game has been saved.
+        newUpgrade: Новое улучшение доступно!
+        gameSaved: Ваша игра была сохранена.
 
     # Mass select information, this is when you hold CTRL and then drag with your mouse
     # to select multiple buildings
     massSelect:
-        infoText: Press <keyCopy> to copy, <keyDelete> to remove and <keyCancel> to cancel.
+        infoText: Нажмите <keyCopy> для копирования, <keyDelete> для удаления и <keyCancel> для отмены.
 
     # The "Upgrades" window
     shop:
-        title: Upgrades
-        buttonUnlock: Upgrade
+        title: Улучшения
+        buttonUnlock: Улучшение
 
         # Gets replaced to e.g. "Tier IX"
-        tier: Tier <x>
+        tier: Тир <x>
 
         # The roman number for each tier
         tierLabels: [I, II, III, IV, V, VI, VII, VIII, IX, X]
 
-        maximumLevel: MAXIMUM LEVEL (Speed x<currentMult>)
+        maximumLevel: МАКСИМАЛЬНЫЙ УРОВЕНЬ (Скорость x<currentMult>)
 
     # The "Statistics" window
     statistics:
-        title: Statistics
+        title: Статистика
         dataSources:
             stored:
-                title: Stored
-                description: Displaying amount of stored shapes in your central building.
+                title: Хранится
+                description: Показывает количество хранящихся фигур в вашем главном здании.
             produced:
-                title: Produced
-                description: Displaying all shapes your whole factory produces, including intermediate products.
+                title: Производится
+                description: Показывает все фигуры которые производятся вашим заводом, включая промежуточные продукты.
             delivered:
-                title: Delivered
-                description: Displaying shapes which are delivered to your central building.
-        noShapesProduced: No shapes have been produced so far.
+                title: Доставлено
+                description: Показывает фигуры доставленные в ваше главное здание.
+        noShapesProduced: Ни одна фигура не была произведена.
 
         # Displays the shapes per minute, e.g. '523 / m'
-        shapesPerMinute: <shapes> / m
+        shapesPerMinute: <shapes> / мин
 
     # Settings menu, when you press "ESC"
     settingsMenu:
-        playtime: Playtime
+        playtime: Время игры
 
-        buildingsPlaced: Buildings
-        beltsPlaced: Belts
+        buildingsPlaced: Здания
+        beltsPlaced: Конвеерные ленты
 
         buttons:
-            continue: Continue
-            settings: Settings
-            menu: Return to menu
+            continue: Продолжить
+            settings: Настройки
+            menu: Вернуться в меню
 
     # Bottom left tutorial hints
     tutorialHints:
-        title: Need help?
-        showHint: Show hint
-        hideHint: Close
+        title: Нужна помощь?
+        showHint: Показать подсказку
+        hideHint: Закрыть
 
     # When placing a blueprint
     blueprintPlacer:
-        cost: Cost
+        cost: Стоимость
 
     # Map markers
     waypoints:
-        waypoints: Markers
-        hub: HUB
-        description: Left-click a marker to jump to it, right-click to delete it.<br><br>Press <keybinding> to create a marker from the current view, or <strong>right-click</strong> to create a marker at the selected location.
-        creationSuccessNotification: Marker has been created.
+        waypoints: Маркеры
+        hub: Хаб
+        description: Левый клик мыши на маркер для прыжка к нему, правый клик для удаления его.<br><br>Нажмите <keybinding> чтобы создать маркер текущего экрана, или <strong>правый клик</strong> для создания маркера в выбранной локации.
+        creationSuccessNotification: Маркер создан.
 
     # Interactive tutorial
     interactiveTutorial:
-        title: Tutorial
+        title: Обучение
         hints:
-            1_1_extractor: Place an <strong>extractor</strong> on top of a <strong>circle shape</strong> to extract it!
+            1_1_extractor: Установите <strong>экстрактор</strong> поверх <strong>фигуры круга</strong> чтобы добыть ее!
             1_2_conveyor: >-
-                Connect the extractor with a <strong>conveyor belt</strong> to your hub!<br><br>Tip: <strong>Click and drag</strong> the belt with your mouse!
+                Присоедините экстрактор <strong>конвеерной лентой</strong> к вашему главному зданию!<br><br>Подсказка: <strong>Нажмите и тяните</strong> ленту вашей мышью!
 
             1_3_expand: >-
-                This is <strong>NOT</strong> an idle game! Build more extractors and belts to finish the goal quicker.<br><br>Tip: Hold <strong>SHIFT</strong> to place multiple extractors, and use <strong>R</strong> to rotate them.
+                Это <strong>НЕ</strong> idle игра! Стройте больше экстракторов и конверных лент для быстрого получения цели.<br><br>Подсказка: Удерживайте <strong>SHIFT</strong> чтобы установить несколько экстракторов, и используйте <strong>R</strong> для поворота их.
 
 # All shop upgrades
 shopUpgrades:
